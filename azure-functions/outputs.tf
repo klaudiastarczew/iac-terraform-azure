@@ -1,4 +1,4 @@
 output = "function.id" {
 description = "id"
-value = try(azurerm_function_app_function.klaudias.id, "")
+value = try(azurerm_function_app_function.app.id, "")
 }
