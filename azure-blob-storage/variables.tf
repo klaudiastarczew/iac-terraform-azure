@@ -1,47 +1,4 @@
-#variable "name_klaudias_resources" {
-#  desctription = "name of klaudias resource"
-#  type = string
-#  default = "klaudias-resources"
-#}
-#
-#variable "location" {
-#  desctription = "location"
-#  type = string
-#  default = "West Europe"
-#}
-#
-#variable "name_storage_account" {
-#  desctription = "name of storage account"
-#  type = string
-#  default = "klaudiasstorage"
-#}
-#
-#variable "account_tier" {
-#  desctription = "account tier"
-#  type = string
-#  default = "Standard"
-#}
-#
-#variable "account_replication_type" {
-#  desctription = "type"
-#  type = string
-#  default = "LRS"
-#}
-#
-#variable "name_storage_container" {
-#  desctription = "name of storage container"
-#  type = string
-#  default = "content"
-#}
-#
-#variable "access_container_type" {
-#  desctription = "type"
-#  type = string
-#  default = "private"
-#}
-
-
-variable "name_klaudias_resources" {
+variable "name_app_resources" {
   type    = string
   default = "example-resource-group"
 }
@@ -88,5 +45,5 @@ variable "type_storage_blob" {
 
 variable "source_storage_blob" {
   type    = string
-  default = "/home/klaudias/cloud-apps/file.txt"
+  default = "/home/app/cloud-apps/file.txt"
 }
